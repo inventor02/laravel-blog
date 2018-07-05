@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'Home\HomeController@index');
+
+Route::group(['prefix' => 'post', 'as' => 'post.'], function() {
+    Route::get('/', 'Blog\PostController@show');
+});

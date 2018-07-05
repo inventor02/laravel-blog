@@ -8,10 +8,15 @@
                 <div class="card bg-light mb-2">
                     <div class="card-body">
                         <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-user"></i> George &nbsp; <i class="fas fa-calendar"></i> 5/7/18</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-user"></i> George &nbsp; <i
+                                    class="fas fa-calendar"></i> 5/7/18</h6>
                         <hr>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget duis at tellus at urna. Pellentesque id nibh tortor id aliquet lectus. Amet venenatis urna cursus eget. Ligula ullamcorper malesuada proin libero. Amet commodo nulla facilisi nullam vehicula. Vel pretium lectus quam id leo in vitae turpis massa. Pellentesque elit eget gravida cum sociis natoque. Est placerat…
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Eget duis at tellus at urna. Pellentesque id nibh tortor id
+                            aliquet lectus. Amet venenatis urna cursus eget. Ligula ullamcorper malesuada proin libero.
+                            Amet commodo nulla facilisi nullam vehicula. Vel pretium lectus quam id leo in vitae turpis
+                            massa. Pellentesque elit eget gravida cum sociis natoque. Est placerat…
                         </p>
                         <a href="#" class="btn btn-primary">Read more</a>
                     </div>
@@ -19,10 +24,15 @@
                 <div class="card bg-light">
                     <div class="card-body">
                         <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-user"></i> George &nbsp; <i class="fas fa-calendar"></i> 5/7/18</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-user"></i> George &nbsp; <i
+                                    class="fas fa-calendar"></i> 5/7/18</h6>
                         <hr>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget duis at tellus at urna. Pellentesque id nibh tortor id aliquet lectus. Amet venenatis urna cursus eget. Ligula ullamcorper malesuada proin libero. Amet commodo nulla facilisi nullam vehicula. Vel pretium lectus quam id leo in vitae turpis massa. Pellentesque elit eget gravida cum sociis natoque. Est placerat…
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Eget duis at tellus at urna. Pellentesque id nibh tortor id
+                            aliquet lectus. Amet venenatis urna cursus eget. Ligula ullamcorper malesuada proin libero.
+                            Amet commodo nulla facilisi nullam vehicula. Vel pretium lectus quam id leo in vitae turpis
+                            massa. Pellentesque elit eget gravida cum sociis natoque. Est placerat…
                         </p>
                         <a href="#" class="btn btn-primary">Read more</a>
                     </div>
@@ -30,37 +40,7 @@
             </div>
             <div class="col-md-4">
                 <h1 class="d-lg-block d-sm-none">&nbsp;</h1>
-                <div class="card bg-light mb-2">
-                    <div class="card-body">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <div class="form-group mb-0">
-                                        <input type="text" class="form-control" placeholder="Search...">
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <button type="submit" class="btn btn-primary btn-block">Go</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="card bg-light mb-2">
-                    <div class="card-body">
-                        <h5 class="card-title">Authors</h5>
-                        <hr>
-                        <p class="mb-0">
-                            <a href="#">George</a>
-                            <a href="#">Aidan</a>
-                            <a href="#">Jonny</a>
-                            <a href="#">Sophie</a>
-                            <a href="#">Sophie</a>
-                            <a href="#">David</a>
-                            <a href="#">Ben</a>
-                        </p>
-                    </div>
-                </div>
+                @include('includes.right-sidebar')
             </div>
         </div>
     </div>
