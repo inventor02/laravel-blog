@@ -10,6 +10,14 @@ require('@fortawesome/fontawesome-pro/js/light');
 require('@fortawesome/fontawesome-pro/js/regular');
 require('@fortawesome/fontawesome-pro/js/solid');
 require('@fortawesome/fontawesome-pro/js/brands');
+require('@fortawesome/fontawesome-pro/js/v4-shims');
 
-// SimpleMDE
-require('simplemde');
+// Trumbowyg
+const Trumbowyg = require('trumbowyg');
+window.Trumbowyg = Trumbowyg;
+
+// CSRF Header Snippet
+require('./snippets/csrf-header');
+
+// Trumbowyg icons snippet
+require('./snippets/trumbowyg');

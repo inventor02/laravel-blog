@@ -3,6 +3,9 @@
     <head>
         <title>{{ config('app.name') }}</title>
 
+        <!-- BEGIN META -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <!-- BEGIN HEADER -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         @yield('head')

@@ -1,0 +1,1 @@
+$.trumbowyg.svgPath = "/vendor/trumbowyg/icons.svg";
